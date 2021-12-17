@@ -1,35 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;   
 }
 
-.header{
+.bg-test {
+    background-color: #fffDD1;
+    height: 900px;
     display: flex;
+ }
+
+.border{
+  
+    flex: .5 1 auto;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;   
+    flex: 2 2 auto;   
+    border-style: dotted;
+
+}
+.photos {
+    flex: 10 1 auto; 
+}
+
+.photo1{
+    width: 50%;
+    height: 50%;
+    border-style: dotted;
+
+
+}
+.photo2{
+    width: 50%;
+    height: 50%;
+    border-style: dotted;
+    border-color: red;    
+
+
+}
+.header{
+    display: flex; 
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    background-color: #1F2937;
-    color: white;
+
     flex: 1;
     
-
 }
 
 .left-header{
+    font-family: 'Shalimar', sans-serif;
     font-weight: 700;
-    color: #f9faf8;
-    font-size: 24px;
-    margin-left:50px;
+    color: black;
+    font-size: 40px;
+
 }
 ul{
+    font-family: 'Shalimar', sans-serif;
     display: flex;
     gap:8px;
     font-weight: 18px;
-    color: #f9faf8;
-    font-size: 16x;
-    margin-right: 50px;
+    color: black;
+    font-size: 30px;
+
 }
+
+
 .second{
     display: flex;
     justify-content: center;
@@ -189,3 +229,5 @@ img {
     align-items: center;
 
 }
+
+
